@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    user-select: none;
+    
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background:rgb(26, 66, 112);
+    padding-top: 13px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: aliceblue;
+
+}
+
+.navbar i{
+    float: left;
+}
+
+.navbar h1 {
+    float: left;
+    margin: -5px 10px;
+}
+
+.navbar a{
+float: right;
+margin-right: 20px;
+}
+
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    margin-top: 50px;
+    background-color: #111;
+    color: #eee;
+    
+}
+
+.sidebar ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.sidebar ul li{
+    border: 1px solid rgb(170, 169, 169);
+    border-radius: 5px;
+    margin: 1px 2px;
+    color: #ddd;
+
+}
+
+.sidebar ul h3{
+    margin: 0;
+    border-top: 1px solid rgb(170, 169, 169);
+    border-bottom: 1px solid rgb(170, 169, 169);
+}
+
+.sidebar img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 25px;
+    top: 10px;
+    bottom: 10px;
+    border-radius: 100%;
+    
+}
+
+.content{
+    position: relative;
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-left: 50px;
+    float: left;
+    background-color: rgb(245, 245, 245);
+}
+
+.content h3{
+    margin: 0;
+    padding: 2px 5px;
+    background-color: rgb(20, 134, 129);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.kotak{
+    width: 150px;
+    min-height: 150px;
+    float: left;
+    border: 1px solid rgb(20, 134, 129);
+    margin-top: 25px;
+    margin-right: 20px;
+    
+}
+
+hr{
+    margin-right: 20px;
+}
+
+.menu-right{
+    float: right;
+    margin-right: 20px;
+}
+
+#refresh{
+    background-color: rgb(48, 167, 48);
+    color:aliceblue;
+    padding: 2px;
+}
+
+#sortir{
+    background-color: rgb(223, 155, 28);
+    color:aliceblue;
+    padding: 2px;
+}
+
+#insert{
+    background-color: lightskyblue;
+    color:aliceblue;
+    padding: 2px;
+}
+
+.form-kategori{
+    float: left;
+
+}
+
+
+#submit{
+    background-color: rgb(40, 176, 255);
+    color: aliceblue;
+    border: unset;
+    padding: 2px 4px;
+    
+}
+.form-search{
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+
+}
+
+.table-buy{
+    float: inline-start;
+}
+
+.table-buy table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 135%;
+}
+
+.table-buy tr, .table-buy th,td{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.table-buy th{
+    background-color: rgb(35, 226, 35);
+}
+
+#keterangan{
+    width: 300px;
+}
+
+#aksi{
+    width: 150px;
+}
+
+#kelas{
+    width: 200px;
+}
+
+.clear{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.a-yellow{
+    padding: 2px 2px;
+    background-color: yellow;
+    
+}
+
+.a-red{
+    padding: 2px 2px;
+    background-color: red;
+    line-height: 2;
+}
+
+.a-blue{
+    padding: 2px 2px;
+    background-color: rgb(121, 141, 255);
+}
+
+.kotak-cari-tabungan{
+    width: 30%;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+}
+
+.kotak-cari-tabungan label{
+    background-color:rgb(27, 23, 255);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 20%;
+    font-size: larger;
+    color:azure;
+}
+.kotak-cari-tabungan input{
+margin-top: 10px;
+width: 80%;
+}
+
+.kotak-hasil-cari{
+    width: 57%;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin-left: 60px;
+}
+
+.kotak-hasil-cari label{
+    background-color:rgb(27, 23, 255);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 20%;
+    font-size: larger;
+    color:azure;
+}
+
+.posi-total{
+    float: left;
+    margin-top: 10px;
+}
+
+.posi-bayar{
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.bungkus{
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.bungkus table{
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+.bg-blue{
+    background-color:rgb(27, 23, 255);
+    padding: 0;
+    margin: -10px -10px;
+    text-align: center;
+    color:azure ;
+}
+
+.table-rapi{
+    margin-top: 20px;
+}
+
+.table-rapi table{
+    border-collapse: collapse;
+}
